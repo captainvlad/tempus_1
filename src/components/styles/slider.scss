@@ -1,0 +1,46 @@
+.slider{
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide{
+  min-width: 100%;
+  height: 90%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+%buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7%;
+  height: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  font-size: 100px;
+  &:hover {
+    background: #d2d0cf;
+    cursor: pointer;
+    color: #001935;
+  }
+}
+
+#goLeft {
+  left: 0;
+  @extend %buttons
+}
+
+#goRight {
+  right: 0;
+  @extend %buttons
+}

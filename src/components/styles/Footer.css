@@ -1,0 +1,31 @@
+#footer {
+    background-color: #001935;
+    margin-top: -2%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 300px;
+}
+
+p {
+    margin-top: 3px;
+    color: gold;
+}
+
+#inst, #gmail, #fb {
+    height: 42px;
+    width: 42px;
+    background-color: #001935;
+    display: inline-block;
+    float: left;
+    margin-left: 40%;
+}
+
+#inst_acc, #mail_acc, #fb_acc {
+    color: gold;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 22px;
+    float: left;
+    margin-left: 5%;
+}
