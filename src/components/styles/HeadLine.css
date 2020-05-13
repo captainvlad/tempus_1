@@ -1,0 +1,105 @@
+* {
+    font-family: "Tibetan Machine Uni";
+}
+
+span {
+    font-size:30px;
+    cursor:pointer;
+}
+
+h1 {
+    width: 85%;
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    float: right;
+    display: inline-block;
+    color: gold;
+    background-color: #001935;
+}
+
+#menu {
+    display: inline-block;
+    color: gold;
+    padding-top: 0.4%;
+    padding-bottom: 0.9%;
+    font-size: 25px;
+    width: 10%;
+    align-content: center;
+}
+
+#menu {
+    background-color: #001935;
+}
+
+#btn_2 {
+    margin-top: 0px;
+    float: right;
+    right: 1.5%;
+    border: none;
+    text-align: center;
+    padding-top: 1.45%;
+    padding-bottom: 1%;
+    width: 5%;
+    color: gold;
+    display: inline-block;
+    background-color: #001935;
+    font-size: 52px;
+}
+
+.btn:hover, #btn_2:hover, #menu:hover{
+    transition: 1s ease;
+    background-color: violet;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #001935;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: violet;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: 1s ease;
+    margin-top: 7%;
+    margin-left: 45%;
+    display: inline-block;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
